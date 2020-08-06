@@ -50,7 +50,7 @@ class AutoClickMouse(threading.Thread):
                     time.sleep(self.delay)
                     pass                            
                 pass
-            time.sleep(0.5)
+            #time.sleep(0.5)
             pass
 
 mouse = Controller()
