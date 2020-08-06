@@ -40,6 +40,7 @@ class AutoClickMouse(threading.Thread):
         pass
     def run(self):
         global Posi_list
+        print("program_running...")
         while self.program_running:
             #print("run...")
             while self.running:
@@ -50,7 +51,7 @@ class AutoClickMouse(threading.Thread):
                     time.sleep(self.delay)
                     pass                            
                 pass
-            #time.sleep(0.5)
+            time.sleep(0.01)
             pass
 
 mouse = Controller()
