@@ -3,8 +3,7 @@ import time
 import keyboard
 
 print("-------**********---------")
-print("Hiển thị tọa độ hiện tại của chuột:\n")
-print("Point(x, y)(R, G, B)\n")
+print("Hiển thị tọa độ hiện tại của chuột: Point(x, y)(R, G, B)\n")
 input("Continue:[Enter] ; Exit:[Esc]")
 while keyboard.is_pressed('esc') == False:
     Mouse_XY = pyautogui.position()
