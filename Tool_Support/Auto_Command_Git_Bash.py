@@ -3,7 +3,7 @@ import time
 import keyboard
 
 def wait_key():
-    delay=0.2
+    delay=0.5
     while keyboard.is_pressed('enter') == False: pass
     time.sleep(delay)
 def send_command(cmd):
