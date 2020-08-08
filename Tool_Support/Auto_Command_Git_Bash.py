@@ -27,8 +27,8 @@ wait_key()
 print("git push origin master")
 pyautogui.write("git push origin master")
 wait_key()
-
-input("Exit")
+print("Exit")
+time.sleep(5)
 
 '''
 git add .
