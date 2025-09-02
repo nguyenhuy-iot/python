@@ -1,0 +1,15 @@
+{
+  // Use spaces instead of tab character
+  "editor.insertSpaces": true,
+  // Set indentation size = 2
+  "editor.tabSize": 2,
+  // Detect indentation automatically (tắt đi để cố định tabSize = 2)
+  "editor.detectIndentation": false,
+  // (Optional) Format on save
+  "editor.formatOnSave": true,
+  // (Optional) Python specific settings
+  "[python]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  }
+}
